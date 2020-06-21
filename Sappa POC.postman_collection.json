@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "654752cd-4d4b-472c-aafa-01714377412b",
+		"name": "Sappa POC",
+		"description": "# It's a POC for Sappa Module",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Signup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "Signup Request"
+			},
+			"response": []
+		},
+		{
+			"name": "Login",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "ChangePassword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FailSignup",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FailLogin",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "FailPassword",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"id": "dc05b793-b30c-4f2b-aa1a-8199af4eb361",
+				"type": "text/javascript",
+				"exec": [
+					"console.log(\"Pre-Request Script\")"
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"id": "fe36434a-c2cc-4e0b-9f3a-7f1603e2bbb6",
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"id": "0446e671-4871-4c8b-b822-777621f5cc18",
+			"key": "username",
+			"value": "devansh42",
+			"type": "string"
+		},
+		{
+			"id": "d87aa5d3-b705-4ead-baac-f453d23772bd",
+			"key": "password",
+			"value": "root1234",
+			"type": "string"
+		},
+		{
+			"id": "7e1e6c25-f9f3-4e1c-87f1-aa8dd28cd142",
+			"key": "email",
+			"value": "devanshguptamrt@gmail.com",
+			"type": "string"
+		},
+		{
+			"id": "058a5528-8bbe-4084-b84d-74281741f120",
+			"key": "wrong_username",
+			"value": "wdevansh42",
+			"type": "string"
+		},
+		{
+			"id": "8529949e-ac8c-4030-8566-c2f69c5d550c",
+			"key": "wrong_password",
+			"value": "wpassword",
+			"type": "string"
+		},
+		{
+			"id": "7635c339-d26b-4436-9a75-de593da5cd0e",
+			"key": "wrong_email",
+			"value": "devansh@gmail.com",
+			"type": "string"
+		}
+	],
+	"protocolProfileBehavior": {}
+}
